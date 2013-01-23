@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'MotionBlocks' target in the 'MotionBlocks' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif

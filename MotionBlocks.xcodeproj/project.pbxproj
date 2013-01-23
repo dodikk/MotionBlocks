@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7E6238DF16AFE4FD00795454 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E6238DE16AFE4FD00795454 /* Foundation.framework */; };
+		7E6238E416AFE4FD00795454 /* MotionBlocks.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7E6238E316AFE4FD00795454 /* MotionBlocks.h */; };
+		7E6238E616AFE4FD00795454 /* MotionBlocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E6238E516AFE4FD00795454 /* MotionBlocks.m */; };
+		7E6238EE16AFE4FE00795454 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E6238ED16AFE4FD00795454 /* SenTestingKit.framework */; };
+		7E6238F016AFE4FE00795454 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E6238EF16AFE4FE00795454 /* UIKit.framework */; };
+		7E6238F116AFE4FE00795454 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E6238DE16AFE4FD00795454 /* Foundation.framework */; };
+		7E6238F416AFE4FE00795454 /* libMotionBlocks.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E6238DB16AFE4FD00795454 /* libMotionBlocks.a */; };
+		7E6238FA16AFE4FE00795454 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7E6238F816AFE4FE00795454 /* InfoPlist.strings */; };
+		7E6238FD16AFE4FE00795454 /* MotionBlocksTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E6238FC16AFE4FE00795454 /* MotionBlocksTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7E6238F216AFE4FE00795454 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E6238D216AFE4FD00795454 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E6238DA16AFE4FD00795454;
+			remoteInfo = MotionBlocks;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7E6238D916AFE4FD00795454 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+				7E6238E416AFE4FD00795454 /* MotionBlocks.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7E6238DB16AFE4FD00795454 /* libMotionBlocks.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMotionBlocks.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E6238DE16AFE4FD00795454 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7E6238E216AFE4FD00795454 /* MotionBlocks-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MotionBlocks-Prefix.pch"; sourceTree = "<group>"; };
+		7E6238E316AFE4FD00795454 /* MotionBlocks.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MotionBlocks.h; sourceTree = "<group>"; };
+		7E6238E516AFE4FD00795454 /* MotionBlocks.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MotionBlocks.m; sourceTree = "<group>"; };
+		7E6238EC16AFE4FD00795454 /* MotionBlocksTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MotionBlocksTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E6238ED16AFE4FD00795454 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		7E6238EF16AFE4FE00795454 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		7E6238F716AFE4FE00795454 /* MotionBlocksTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MotionBlocksTests-Info.plist"; sourceTree = "<group>"; };
+		7E6238F916AFE4FE00795454 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7E6238FB16AFE4FE00795454 /* MotionBlocksTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MotionBlocksTests.h; sourceTree = "<group>"; };
+		7E6238FC16AFE4FE00795454 /* MotionBlocksTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MotionBlocksTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7E6238D816AFE4FD00795454 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E6238DF16AFE4FD00795454 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E6238E816AFE4FD00795454 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E6238EE16AFE4FE00795454 /* SenTestingKit.framework in Frameworks */,
+				7E6238F016AFE4FE00795454 /* UIKit.framework in Frameworks */,
+				7E6238F116AFE4FE00795454 /* Foundation.framework in Frameworks */,
+				7E6238F416AFE4FE00795454 /* libMotionBlocks.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7E6238D016AFE4FD00795454 = {
+			isa = PBXGroup;
+			children = (
+				7E6238E016AFE4FD00795454 /* MotionBlocks */,
+				7E6238F516AFE4FE00795454 /* MotionBlocksTests */,
+				7E6238DD16AFE4FD00795454 /* Frameworks */,
+				7E6238DC16AFE4FD00795454 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7E6238DC16AFE4FD00795454 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7E6238DB16AFE4FD00795454 /* libMotionBlocks.a */,
+				7E6238EC16AFE4FD00795454 /* MotionBlocksTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7E6238DD16AFE4FD00795454 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7E6238DE16AFE4FD00795454 /* Foundation.framework */,
+				7E6238ED16AFE4FD00795454 /* SenTestingKit.framework */,
+				7E6238EF16AFE4FE00795454 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7E6238E016AFE4FD00795454 /* MotionBlocks */ = {
+			isa = PBXGroup;
+			children = (
+				7E6238E316AFE4FD00795454 /* MotionBlocks.h */,
+				7E6238E516AFE4FD00795454 /* MotionBlocks.m */,
+				7E6238E116AFE4FD00795454 /* Supporting Files */,
+			);
+			path = MotionBlocks;
+			sourceTree = "<group>";
+		};
+		7E6238E116AFE4FD00795454 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7E6238E216AFE4FD00795454 /* MotionBlocks-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7E6238F516AFE4FE00795454 /* MotionBlocksTests */ = {
+			isa = PBXGroup;
+			children = (
+				7E6238FB16AFE4FE00795454 /* MotionBlocksTests.h */,
+				7E6238FC16AFE4FE00795454 /* MotionBlocksTests.m */,
+				7E6238F616AFE4FE00795454 /* Supporting Files */,
+			);
+			path = MotionBlocksTests;
+			sourceTree = "<group>";
+		};
+		7E6238F616AFE4FE00795454 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7E6238F716AFE4FE00795454 /* MotionBlocksTests-Info.plist */,
+				7E6238F816AFE4FE00795454 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7E6238DA16AFE4FD00795454 /* MotionBlocks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E62390016AFE4FE00795454 /* Build configuration list for PBXNativeTarget "MotionBlocks" */;
+			buildPhases = (
+				7E6238D716AFE4FD00795454 /* Sources */,
+				7E6238D816AFE4FD00795454 /* Frameworks */,
+				7E6238D916AFE4FD00795454 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MotionBlocks;
+			productName = MotionBlocks;
+			productReference = 7E6238DB16AFE4FD00795454 /* libMotionBlocks.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		7E6238EB16AFE4FD00795454 /* MotionBlocksTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E62390316AFE4FE00795454 /* Build configuration list for PBXNativeTarget "MotionBlocksTests" */;
+			buildPhases = (
+				7E6238E716AFE4FD00795454 /* Sources */,
+				7E6238E816AFE4FD00795454 /* Frameworks */,
+				7E6238E916AFE4FD00795454 /* Resources */,
+				7E6238EA16AFE4FD00795454 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E6238F316AFE4FE00795454 /* PBXTargetDependency */,
+			);
+			name = MotionBlocksTests;
+			productName = MotionBlocksTests;
+			productReference = 7E6238EC16AFE4FD00795454 /* MotionBlocksTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7E6238D216AFE4FD00795454 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = EmbeddedSources;
+			};
+			buildConfigurationList = 7E6238D516AFE4FD00795454 /* Build configuration list for PBXProject "MotionBlocks" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7E6238D016AFE4FD00795454;
+			productRefGroup = 7E6238DC16AFE4FD00795454 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7E6238DA16AFE4FD00795454 /* MotionBlocks */,
+				7E6238EB16AFE4FD00795454 /* MotionBlocksTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7E6238E916AFE4FD00795454 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E6238FA16AFE4FE00795454 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7E6238EA16AFE4FD00795454 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7E6238D716AFE4FD00795454 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E6238E616AFE4FD00795454 /* MotionBlocks.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E6238E716AFE4FD00795454 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E6238FD16AFE4FE00795454 /* MotionBlocksTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7E6238F316AFE4FE00795454 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E6238DA16AFE4FD00795454 /* MotionBlocks */;
+			targetProxy = 7E6238F216AFE4FE00795454 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7E6238F816AFE4FE00795454 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E6238F916AFE4FE00795454 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7E6238FE16AFE4FE00795454 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7E6238FF16AFE4FE00795454 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7E62390116AFE4FE00795454 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/MotionBlocks.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MotionBlocks/MotionBlocks-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		7E62390216AFE4FE00795454 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/MotionBlocks.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MotionBlocks/MotionBlocks-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		7E62390416AFE4FE00795454 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MotionBlocks/MotionBlocks-Prefix.pch";
+				INFOPLIST_FILE = "MotionBlocksTests/MotionBlocksTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		7E62390516AFE4FE00795454 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MotionBlocks/MotionBlocks-Prefix.pch";
+				INFOPLIST_FILE = "MotionBlocksTests/MotionBlocksTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7E6238D516AFE4FD00795454 /* Build configuration list for PBXProject "MotionBlocks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E6238FE16AFE4FE00795454 /* Debug */,
+				7E6238FF16AFE4FE00795454 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E62390016AFE4FE00795454 /* Build configuration list for PBXNativeTarget "MotionBlocks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E62390116AFE4FE00795454 /* Debug */,
+				7E62390216AFE4FE00795454 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7E62390316AFE4FE00795454 /* Build configuration list for PBXNativeTarget "MotionBlocksTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E62390416AFE4FE00795454 /* Debug */,
+				7E62390516AFE4FE00795454 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7E6238D216AFE4FD00795454 /* Project object */;
+}
