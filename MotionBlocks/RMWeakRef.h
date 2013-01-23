@@ -2,6 +2,8 @@
 
 @interface RMWeakRef : NSObject
 
-@property ( nonatomic, weak ) id impl;
+-(id)initWithImpl:( id )impl_;
+
+@property ( nonatomic, weak, readonly ) id impl;
 
 @end
