@@ -280,8 +280,8 @@
 			projectRoot = "";
 			targets = (
 				7E6238DA16AFE4FD00795454 /* MotionBlocks */,
-				7E6238EB16AFE4FD00795454 /* MotionBlocksTests */,
 				7E62391716AFE7BD00795454 /* MotionBlocksFW */,
+				7E6238EB16AFE4FD00795454 /* MotionBlocksTests */,
 			);
 		};
 /* End PBXProject section */
