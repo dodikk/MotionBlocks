@@ -1,0 +1,4 @@
+Some convenience methods to invoke native ObjC blocks from the Ruby code :
+
+1. NSObject+BlockForRuby - a category that allows calling some native blocks from the Ruby code
+2. RMWeakRef - a helper class for Ruby memory management
