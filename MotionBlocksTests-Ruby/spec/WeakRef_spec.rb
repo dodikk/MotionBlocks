@@ -1,6 +1,7 @@
 describe "RMWeakRef memory management" do
   before do
 
+    GC.stress = true
     # NSAutoreleasePool pool = NSAutoreleasePool.alloc.init
 
     hello = 'hello'
@@ -23,6 +24,8 @@ describe "RMWeakRef memory management" do
     puts '------'
 
     # pool.drain
+      
+    GC.start
   end
 
   it "Returns nil if not stored otherwise" do
