@@ -65,6 +65,11 @@
 		7E62391C16AFE7BD00795454 /* MotionBlocksFW-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MotionBlocksFW-Info.plist"; sourceTree = "<group>"; };
 		7E62391E16AFE7BD00795454 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7E62392016AFE7BD00795454 /* MotionBlocksFW-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MotionBlocksFW-Prefix.pch"; sourceTree = "<group>"; };
+		7E62392F16AFEB4E00795454 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		7E62393116AFEB4E00795454 /* app_delegate.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = app_delegate.rb; sourceTree = "<group>"; };
+		7E62393216AFEB4E00795454 /* Rakefile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; path = Rakefile; sourceTree = "<group>"; };
+		7E62393516AFEB4E00795454 /* main_spec.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = main_spec.rb; sourceTree = "<group>"; };
+		7E62393716B0084F00795454 /* WeakRef_spec.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = WeakRef_spec.rb; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +108,7 @@
 			children = (
 				7E6238E016AFE4FD00795454 /* MotionBlocks */,
 				7E6238F516AFE4FE00795454 /* MotionBlocksTests */,
+				7E62392E16AFEB4E00795454 /* MotionBlocksTests-Ruby */,
 				7E62391A16AFE7BD00795454 /* MotionBlocksFW */,
 				7E6238DD16AFE4FD00795454 /* Frameworks */,
 				7E6238DC16AFE4FD00795454 /* Products */,
@@ -184,6 +190,42 @@
 				7E62392016AFE7BD00795454 /* MotionBlocksFW-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7E62392E16AFEB4E00795454 /* MotionBlocksTests-Ruby */ = {
+			isa = PBXGroup;
+			children = (
+				7E62392F16AFEB4E00795454 /* .gitignore */,
+				7E62393016AFEB4E00795454 /* app */,
+				7E62393216AFEB4E00795454 /* Rakefile */,
+				7E62393316AFEB4E00795454 /* resources */,
+				7E62393416AFEB4E00795454 /* spec */,
+			);
+			path = "MotionBlocksTests-Ruby";
+			sourceTree = "<group>";
+		};
+		7E62393016AFEB4E00795454 /* app */ = {
+			isa = PBXGroup;
+			children = (
+				7E62393116AFEB4E00795454 /* app_delegate.rb */,
+			);
+			path = app;
+			sourceTree = "<group>";
+		};
+		7E62393316AFEB4E00795454 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		7E62393416AFEB4E00795454 /* spec */ = {
+			isa = PBXGroup;
+			children = (
+				7E62393716B0084F00795454 /* WeakRef_spec.rb */,
+				7E62393516AFEB4E00795454 /* main_spec.rb */,
+			);
+			path = spec;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -593,6 +635,7 @@
 				7E62392316AFE7BD00795454 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
