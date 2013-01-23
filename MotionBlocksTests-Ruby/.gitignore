@@ -1,4 +1,5 @@
 .repl_history
+.idea
 build
 tags
 resources/*.nib
