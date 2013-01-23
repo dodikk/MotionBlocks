@@ -6,30 +6,30 @@ describe "RMWeakRef memory management" do
 
       #hello = 'hello'
       #world = 'world'
+    Kernel.autorelease_pool do
+      hello = 'hello'.split("")
+      world = 'world'.split("")
 
-    hello = 'hello'.split("")
-    world = 'world'.split("")
 
-      
-    @world = world
-    
-    @weakHello = RMWeakRef.alloc.initWithImpl( hello )
-    @weakWorld = RMWeakRef.alloc.initWithImpl( world )
+      @world = world
 
-    hello = nil
-    world = nil
+      @weakHello = RMWeakRef.alloc.initWithImpl( hello )
+      @weakWorld = RMWeakRef.alloc.initWithImpl( world )
 
-    puts '|'
-    puts '@weakHello.class :'
-    puts @weakHello.class
-    puts @weakHello.impl.class
-    puts @weakWorld.class
-    puts @weakWorld.impl.class
-    puts '------'
+      hello = nil
+      world = nil
 
+      puts '|'
+      puts '@weakHello.class :'
+      puts @weakHello.class
+      puts @weakHello.impl.class
+      puts @weakWorld.class
+      puts @weakWorld.impl.class
+      puts '------'
+    end
     # pool.drain
       
-    GC.start
+    #GC.start
   end
 
   it "Returns nil if not stored otherwise" do
