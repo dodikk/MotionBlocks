@@ -3,6 +3,16 @@ $:.unshift("/Library/RubyMotion/lib")
 require 'motion/project'
 
 Motion::Project::App.setup do |app|
-  # Use `rake config' to see complete project settings.
-  app.name = 'MotionBlocksTests-Ruby'
+    # Use `rake config' to see complete project settings.
+    app.name = 'MotionBlocksTests-Ruby'
+    
+    app.device_family = [:ipad, :iphone]
+    app.deployment_target = "5.0"
+    
+    app.vendor_project('../', :xcode,
+                       :target => 'MotionBlocks',
+                       :headers_dir => 'MotionBlocks')
+    
+    app.frameworks += [ 'Foundation' ]
+    
 end
