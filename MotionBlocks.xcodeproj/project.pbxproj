@@ -68,7 +68,6 @@
 		7E62392F16AFEB4E00795454 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		7E62393116AFEB4E00795454 /* app_delegate.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = app_delegate.rb; sourceTree = "<group>"; };
 		7E62393216AFEB4E00795454 /* Rakefile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; path = Rakefile; sourceTree = "<group>"; };
-		7E62393516AFEB4E00795454 /* main_spec.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = main_spec.rb; sourceTree = "<group>"; };
 		7E62393716B0084F00795454 /* WeakRef_spec.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = WeakRef_spec.rb; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -223,7 +222,6 @@
 			isa = PBXGroup;
 			children = (
 				7E62393716B0084F00795454 /* WeakRef_spec.rb */,
-				7E62393516AFEB4E00795454 /* main_spec.rb */,
 			);
 			path = spec;
 			sourceTree = "<group>";
