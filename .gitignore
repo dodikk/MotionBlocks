@@ -1,6 +1,9 @@
 ._*
 .svn
 build
+build-*
+.build
+*bridgesupport
 svnignore.*
 *.svnignore
 *.DS_Store
