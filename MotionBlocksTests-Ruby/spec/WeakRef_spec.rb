@@ -4,8 +4,12 @@ describe "RMWeakRef memory management" do
       #GC.stress = true
     # NSAutoreleasePool pool = NSAutoreleasePool.alloc.init
 
-    hello = 'hello'
-    world = 'world'
+      #hello = 'hello'
+      #world = 'world'
+
+    hello = 'hello'.split("")
+    world = 'world'.split("")
+
       
     @world = world
     
