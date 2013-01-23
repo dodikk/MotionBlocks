@@ -1,7 +1,7 @@
 describe "RMWeakRef memory management" do
   before do
 
-    GC.stress = true
+      #GC.stress = true
     # NSAutoreleasePool pool = NSAutoreleasePool.alloc.init
 
     hello = 'hello'
