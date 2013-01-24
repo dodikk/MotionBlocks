@@ -8,7 +8,7 @@
     return nil;
 }
 
--(id)initWithImpl:( id )impl_
+-(id)initWithTarget:( id )impl_
 {
     self = [ super init ];
     if ( nil == self )
@@ -16,9 +16,14 @@
         return nil;
     }
     
-    self->_impl = impl_;
+    self->_target = impl_;
     
     return self;
+}
+
++(id)refWithTarget:(id)target_
+{
+    return [ [ self alloc ] initWithTarget: target_ ];
 }
 
 @end

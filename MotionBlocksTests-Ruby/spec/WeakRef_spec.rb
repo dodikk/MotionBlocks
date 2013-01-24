@@ -13,8 +13,8 @@ describe "RMWeakRef memory management" do
 
       @world = world
 
-      @weakHello = RMWeakRef.alloc.initWithImpl( hello )
-      @weakWorld = RMWeakRef.alloc.initWithImpl( world )
+      @weakHello = RMWeakRef.refWithTarget( hello )
+      @weakWorld = RMWeakRef.refWithTarget( world )
 
       hello = nil
       world = nil
@@ -22,9 +22,9 @@ describe "RMWeakRef memory management" do
       puts '|'
       puts '@weakHello.class :'
       puts @weakHello.class
-      puts @weakHello.impl.class
+      puts @weakHello.target.class
       puts @weakWorld.class
-      puts @weakWorld.impl.class
+      puts @weakWorld.target.class
       puts '------'
     end
     # pool.drain
@@ -33,14 +33,14 @@ describe "RMWeakRef memory management" do
   end
 
   it "Returns nil if not stored otherwise" do
-    puts @weakHello.impl.class
-    puts @weakHello.impl.methods.sort
+    puts @weakHello.target.class
+    puts @weakHello.target.methods.sort
 
-    @weakHello.impl.should.be.equal( nil )
+    @weakHello.target.should.be.equal( nil )
   end
 
     
   it "Returns valid stored object" do
-     @weakWorld.impl.should.be.equal( @world )
+     @weakWorld.target.should.be.equal( @world )
   end
 end
