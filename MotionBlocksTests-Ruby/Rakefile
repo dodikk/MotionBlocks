@@ -15,4 +15,9 @@ Motion::Project::App.setup do |app|
     
     app.frameworks += [ 'Foundation' ]
     
+    app.files =
+      Dir.glob(File.join(app.project_dir, '../*.rb'))  |
+      Dir.glob(File.join(app.project_dir, 'app/*.rb')) |
+      Dir.glob(File.join(app.project_dir, 'app/**/*.rb')) |
+      app.files
 end

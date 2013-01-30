@@ -1,0 +1,2 @@
+class WeakRef < RMWeakRef
+end

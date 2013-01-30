@@ -13,8 +13,8 @@ describe "RMWeakRef memory management" do
 
       @world = world
 
-      @weakHello = RMWeakRef.refWithTarget( hello )
-      @weakWorld = RMWeakRef.refWithTarget( world )
+      @weakHello = WeakRef.refWithTarget( hello )
+      @weakWorld = WeakRef.refWithTarget( world )
 
       hello = nil
       world = nil
