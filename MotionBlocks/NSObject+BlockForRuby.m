@@ -43,10 +43,14 @@
 #pragma mark noreturn
 -(void)objc_BlockSend1_Noreturn:( id )arg_
 {
+    NSLog( @"[BEGIN] objc_BlockSend1_Noreturn" );
+    
     typedef void(^Block1)( id arg_ );
     
     Block1 block_ = (Block1)self;
     block_( arg_ );
+    
+    NSLog( @"[END] objc_BlockSend1_Noreturn" );
 }
 
 -(void)objc_BlockSend0_Noreturn
@@ -71,6 +75,15 @@
             NSAssert( NO, @"Too many arguments for the current implementation" );
             break;
     }
+}
+
+-(void)block_ExecuteWithCallback2:( Callback2 )callback_
+{
+    NSLog( @"[BEGIN] block_ExecuteWithCallback2" );
+    
+    [ self objc_BlockSend1_Noreturn: callback_ ];
+    
+    NSLog( @"[END] block_ExecuteWithCallback2" );
 }
 
 @end
